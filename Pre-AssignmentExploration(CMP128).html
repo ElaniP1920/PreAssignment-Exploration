@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- Document type is html -->
+
+<html lang="en">
+<!-- stating that our html document is in english -->
+
+<head> <!-- head is not visible to the user and contains all the meta data -->
+
+    <title>CMP 128.CN01</title> <!-- title sets the title of the webpage -->
+
+    <meta charset="UTF-8"> <!-- meta for charset it is just the character set used for english lettering  -->
+    <!-- ^^ this includes emojis --> 
+
+    <meta name="Elani" content="CMP 128.CN01"> <!-- tagging the website from the creator -->
+
+    <base href="https://www.arizona.edu/" target="_blank"><!-- the base href is for links that you use in the future that will start with whatever it is equal to -->
+    <!-- The target is how you wish to open up href's in your site. Blank opens a new tab for the site -->
+
+    <link rel="stylesheet" href="styles.css"> <!-- this is for us to add css later -->
+    
+
+    <style> /* dives into css a bit and you can play around with this from wednesday class on */ 
+        /* <style> allows us to write CSS directly in the HTML file */
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th, td {
+            border: 3px solid rgb(207, 24, 82);
+            padding: 8px;
+        }
+
+    
+    </style>
+
+    <script>
+        // <script> allows us to write JavaScript
+        console.log("Welcome to CMP 128!");
+        //
+    </script>
+
+</head>
+
+<body> <!-- what is visible to the user -->
+
+    <h1>Welcome to Elani's Website</h1>
+
+    <h2>Exploring HTML Basics</h2>
+
+    <p>We are learning web design here</p>
+
+    <hr> <!-- horizontal tag for a line  -->
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <div> <!-- dividers change no look but allow html to be read in sections -->
+        <p> This is a <span>simple</span> example. </p>
+    </div>
+
+    <a href="student-life">Visit UArizona </a> <!-- adding a link for the user to click -->
+    <br>
+
+    <img src="https://www.arizona.edu/sites/default/files/styles/az_full_width_bg_large/public/2026-01/about-overview-leaders.jpg.webp?itok=F5-FCBdb" alt="Placeholder Image">
+    <!-- adding a alt image to the src allows a double check if the code is the issue or the image is whats wrong -->
+
+    <h2> Wilbur the Wildcat(Mascot)</h2>
+    <img src = "https://www.arizona.edu/sites/default/files/styles/az_large/public/2026-02/GalaxyWilbur.jpg.webp?itok=vvAXNSx-" alt ="Placeholder Image">
+
+
+    <h3>Computer Classes Offered</h3>
+
+    <ul>  <!-- unordered list (default bullet points) -->
+        <li>CSC 120 - Introduction to Computer Programming 1</li>  <!-- having each thing you want listed in <li> tags allow other bullets to be created -->
+        <li>CSC 210 - Software Development</li>
+        <li>CSC 252 - Computer Organization</li>
+    </ul>
+
+    <h3>Programming Languages</h3>
+
+    <ol> <!-- ordered list (numerical) -->
+        <li>HTML</li> <!-- having each thing you want listed in <li> tags allow other numbers to be created -->
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Course Breakdown </h3>
+
+    <table>
+
+        <thead> <!-- heading for our table that is bolded -->
+            <tr> <!-- table row and the amount of theads that we have is the amount of columns-->
+                <th>Course</th> <!-- headers for the columns -->
+                <th>Credits</th> <!-- headers for the columns -->
+            </tr>
+        </thead>
+
+        <tbody> <!-- table body which means the words are not bolded -->
+            <!-- be careful with your tags for the amount of rows and columns you create -->
+            <tr>
+                <td>CSC 120</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>CSC 210</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>CSC 252</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>
